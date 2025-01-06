@@ -3,7 +3,7 @@ sources = paper.tex
 .PHONY: clean reformat split-sentences indent
 
 compile: $(sources)
-	latexmk $(sources)
+	latexmk -pdf $(sources)
 
 format:
 	latexindent -l -s -sl -w $(sources)
