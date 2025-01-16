@@ -475,8 +475,7 @@ other external influences may affect the results.
 
 % =========================================================================== %
 
-\section{Results}
-\label{sec:results}
+\section{Results}\label{sec:results}
 
 \par In this section I will present the results of the benchmarking tests for
 each of the scenarios described in \cref{sec:scenarios}.
@@ -506,8 +505,7 @@ summarized in \cref{tab:filecopy}.
   \label{tab:filecopy}
 \end{table}
 
-\subsection{Download Speed}
-\label{sec:download}
+\subsection{Download Speed}\label{sec:download}
 
 \par The results of the download speed tests were a surprise. The download
 speed was significantly faster with the antivirus and firewall installed than
@@ -532,8 +530,7 @@ ash-speed.hetzner.com \cite{HetznerSpeed}. The results are summarized in
   \label{tab:download}
 \end{table}
 
-\subsection{Number of Processes}
-\label{sec:processes}
+\subsection{Number of Processes}\label{sec:processes}
 
 \par The number of processes was slightly differenet in each scenario. I should
 mention that there were also some windows updates that were installed during
@@ -555,8 +552,7 @@ the tests. The results are summarized in \cref{tab:processes}.
   \label{tab:processes}
 \end{table}
 
-\subsection{Impact on RAM Usage}
-\label{sec:ram}
+\subsection{Impact on RAM Usage}\label{sec:ram}
 
 \par The impact on RAM usage is barely noticeable. The only difference is
 between the scenario without any antivirus or firewall and the scenario with
@@ -579,8 +575,7 @@ installed during the tests. The results are summarized in \cref{tab:ram}.
   \label{tab:ram}
 \end{table}
 
-\subsection{Impact on CPU Usage}
-\label{sec:cpu}
+\subsection{Impact on CPU Usage}\label{sec:cpu}
 
 \par The impact on CPU usage was also slightly noticeable. There were 1-2\%
 more CPU usage with the antivirus and firewall installed than with no
@@ -612,8 +607,7 @@ configured as NAT and the other one as internal network. The internal network
 was used to connect the firewall to the virtual machine that was used for the
 benchamrking tests.
 
-\subsection{Startup Time}
-\label{sec:startup}
+\subsection{Startup Time}\label{sec:startup}
 
 \par The startup time was the only scenario where the results were as expected.
 The startup time was significantly slower with the antivirus and firewall than
@@ -643,8 +637,7 @@ but in the majority of the cases the startup time was around the average time.
 
 % =========================================================================== %
 
-\section{Analysis and Discussion}
-\label{sec:discussion}
+\section{Analysis and Discussion}\label{sec:discussion}
 
 \par The results of the benchmarking tests show that the antivirus and firewall
 have some impact on the computational resources of the system, however the
@@ -675,16 +668,20 @@ additional processes and memory usage.
 
 % =========================================================================== %
 
-\section{Conclusion}
-\label{sec:conclusion}
+\section{Conclusion}\label{sec:conclusion}
 
 \par In conclusion, the antivirus and firewall have some impact on the
 computational resources of the system, but the impact is not as significant as
-expected. The file copying speed and startup time are the most impacted
-resources, while the download speed, number of processes, RAM usage, and CPU
-usage are slightly impacted. However, the results may not be generalizable to
-all computer systems, as the performance of a computer can be influenced by
-many factors, such as the hardware configuration, the operating system, and the
+expected.
+\par The file copying speed and startup time are the most impacted
+resources. Even if the startup time alone has not an impact big enough to make
+users avoid using intrusion detection systems, the file copying speed might be
+an important factor the users will have in mind when they have to choose
+between security or speed.
+\par However the download speed, number of processes, RAM usage, and CPU usage are
+slightly impacted. However, the results may not be generalizable to all
+computer systems, as the performance of a computer can be influenced by many
+factors, such as the hardware configuration, the operating system, and the
 software installed on the system.
 
 % =========================================================================== %
@@ -1063,7 +1060,7 @@ software installed on the system.
 % Enfore empty line after bibliography
 \ \\
 %
-All links were last followed on October 5, 2020.
+% All links were last followed on October 5, 2020.
 
 %%% ===============================================================================
 %\appendix
